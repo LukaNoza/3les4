@@ -1,0 +1,114 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.Dad {
+    width: 90%;
+    border: 1rem solid #333;
+    display: inline-block;
+    justify-content: center;
+    padding: 1rem;
+    background-color: chartreuse;
+}
+
+.header {
+    border: 1rem solid #d18d8d;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    background-color: blueviolet;
+}
+
+.aside-l {
+    border: 1rem solid #d18d8d;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    width: 25%;
+    height: 500px;
+    background-color: aquamarine;
+}
+
+.aside-r {
+    border: 1rem solid #d18d8d;
+    display: inline-block;
+    padding: 1rem;
+    width: 60%;
+    height: 500px;
+    background-color: aquamarine;
+}
+
+.aside-all {
+    border: 1rem solid #333;
+    display: flex;
+    justify-content: space-between ;
+    padding: 1rem;
+}
+
+.inner-aside {
+     display: flex;
+     justify-content: space-around;
+     margin: 1rem;
+}
+
+.ins {
+    padding: 2rem;
+    border: 1rem solid #333;
+    background-color: aqua;
+}
+
+.section {
+    border: 10px solid #d18d8d;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    width: 79%;
+    margin: 1rem;
+    background-color: darkgray;
+}
+
+.secb {
+    display: flex;
+    justify-content: center;
+}
+
+.seca {
+    display: flex;
+    justify-content: center;
+}
+
+.sectiona {
+    border: 10px solid #d18d8d;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    width: 79%;
+    margin: 1rem;
+    height: 100px;
+    background-color: darkgray;
+}
+
+.footer {
+    border: 1rem solid #d18d8d;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    background-color: #333;
+}
+
+.fob {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    border: 1rem solid #d18d8d;
+    margin: 0;
+    background-color: #333;
+}
